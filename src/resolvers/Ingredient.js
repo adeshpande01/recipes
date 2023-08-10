@@ -1,5 +1,5 @@
 module.exports = {
   Ingredient: {
-    // Ingredient resolvers go here
+    ddetailedDescription: ({ text }) => text,
   },
 };
